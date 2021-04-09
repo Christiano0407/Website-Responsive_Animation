@@ -57,7 +57,7 @@ Website Responsive and Animation with Javascript.
 
 # CDN
 [CDN](https://cdnjs.com/)
-# Tips: 
+# Tips and Guides: 
 - Posicionamiento.
 - Modelo de caja (Box-model).
 - Tipografía.

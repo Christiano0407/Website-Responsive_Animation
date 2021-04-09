@@ -8,6 +8,11 @@
  --clr-complement3: #fee440; 
  --Clr-White: #ffffff;
  --clr-Black: #000000;
+
+ --font-size-small: 12px; 
+ --font-size-medium: 16px; 
+ --font-size-tall: 18px; 
+ --font-size-Title: 2.4rem; 
 }
 * {
     box-sizing: border-box;
@@ -38,13 +43,29 @@ body {
     width: 100%;
     height: 6rem;
 }
-
 .navBar {
     width: 100%;
     height: 6rem;
     background-color: var(--clr-Black);
-    padding: 0.5rem;
+    padding: 0.5rem calc((100vw - 1200px / 2));
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.navBar__logo {
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: var(--font-size-medium);
+    color: var(--Clr-White);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navBar__link {
+    color: var(--Clr-White);
+    text-decoration: none;
+    padding: 8rem 1rem;
+    font-size: var(--font-size-small);
+}
+.navBar__link:hover {
+    color: var(--clr-complement1);
 }

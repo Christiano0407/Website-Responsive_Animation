@@ -33,3 +33,18 @@ img {
 body {
     font-family: 'Rubik', sans-serif;
 }
+
+.header {
+    width: 100%;
+    height: 6rem;
+}
+
+.navBar {
+    width: 100%;
+    height: 6rem;
+    background-color: var(--clr-Black);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

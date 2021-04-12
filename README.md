@@ -51,6 +51,7 @@ Website Responsive and Animation with Javascript.
 # Image
 [Unsplash](https://unsplash.com/)
 [Tiny PNG](https://tinypng.com/)
+[Pexels](https://www.pexels.com/es-es/)
 # Icons
 [Font Awesome](https://fontawesome.com/)
 [Free Icons](https://icons8.com/icons)

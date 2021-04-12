@@ -69,3 +69,16 @@ body {
 .navBar__link:hover {
     color: var(--clr-complement1);
 }
+
+      /* ====Hero Section==== */
+.hero {
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/img/bruce-mars-pFyKRmDiWEA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

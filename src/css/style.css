@@ -115,3 +115,15 @@ line-height: 1;
 }
 
    /*  ==== Service Section ====*/
+   .services {
+       padding: 8rem calc((100vw - 1200px) / 2);
+   }
+   .service__container {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       padding: 1rem;
+   }
+   .services__img {
+       width: 100%;
+       height: 100%;
+   }

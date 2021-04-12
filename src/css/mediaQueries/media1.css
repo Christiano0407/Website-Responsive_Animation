@@ -48,7 +48,7 @@
     top: -1000px;
 }
 .navBar__menu.active {
-    top: 12%;
+    top: 9%;
     opacity: 1;
     z-index: 99;
     height: 100vh;
@@ -58,7 +58,7 @@
 .navBar__toggle .bar {
     width: 2.5rem;
     height: .3rem;
-    background-color: var(--Clr-White);
+    background-color: var(--clr-Two);
     margin: .5rem auto;
     display: block;
     transition: all 0.3s ease-in-out;

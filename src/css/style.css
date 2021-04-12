@@ -127,3 +127,30 @@ line-height: 1;
        width: 100%;
        height: 100%;
    }
+   .topLine {
+       color: var(--clr-One);
+       text-transform: uppercase;
+       font-weight: bold;
+       margin-bottom: 0.5rem;
+   }
+   .service__Heading {
+       margin-bottom: 1rem;
+       font-size: clamp(2rem, 6vw, 3rem);
+       color: var(--clr-Two);
+   }
+   .services__features {
+       list-style: none;
+   }
+   .services__feature {
+       margin-bottom: 1.6rem;
+       font-size: clamp(1rem, 5vw, 1.2rem);
+   }
+   .fa-check-circle {
+       margin-right: 0.5rem;
+       color: var(--clr-Two);
+   }
+   @media screen and (max-width: 768px) {
+    .service__container {
+        grid-template-columns: 1fr;
+      }
+   }

@@ -23,7 +23,7 @@ gsap.from(`.animate__hero`, {
 }); 
 
 gsap.from(`.animate-services`, {
-    ScrollTrigger: `.animate-services`,
+    scrollTrigger: `.animate-services`,
     duration: 0.5, 
     opacity: 0, 
     y: -150, 
@@ -31,8 +31,25 @@ gsap.from(`.animate-services`, {
 }); 
 
 gsap.from(`.animate-img`, {
-    ScrollTrigger: `.animate-img`,
+    scrollTrigger: `.animate-img`,
     duration: 1.2, 
     opacity: 0, 
     x: -200, 
-})
+}); 
+
+gsap.from(`.animate-membership`,{
+   scrollTrigger: `.animate-membership`, 
+   duration: 1, 
+   opacity: 0, 
+   y: -150, 
+   stagger: 0.3, 
+   delay: 0.5
+}); 
+gsap.from(`.animate-card`,{
+    scrollTrigger: `.animate-card`, 
+    duration: 1, 
+    opacity: 0, 
+    y: -150, 
+    stagger: 0.1, 
+    delay: 0.2
+ }); 

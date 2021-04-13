@@ -426,14 +426,60 @@ line-height: 1;
                 background: var(--clr-Black);
                 color: var(--Clr-White);
             }
+            .footer__desc {
+                padding: 0 2rem;
+            }
             .footer__desc h1 {
                 color: var(--clr-Two);
                 font-size: var(--font-size-tall);
                 font-weight: bold;
                 text-transform: uppercase;
+                padding-bottom: 2rem;
+            }
+            .footer__desc p {
+                margin-bottom: 1rem;
+            }
+            #phone {
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            .footer__wrapper {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer__links {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1rem 2rem;
             }
             .footer__title {
                 color: var(--clr-complement1);
+                font-size: 1.4rem;
+                margin-bottom: 1.6rem;
+            }
+            .footer__link {
+                text-decoration: none;
+                color: rgba(242, 242, 242, .5);
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+                transition: 0.3s ease-in-out;
+            }
+            .footer__link:hover {
+                color: var(--clr-complement1);
+            }
+            @media screen and (max-width: 820px) {
+                .footer__wrapper {
+                    grid-template-columns: 1fr;
+                }
+            }
+            @media screen and (max-width: 400px) {
+                .footer__desc {
+                  padding: 1rem;
+                }
+                .footer__links {
+                  padding: 1rem;
+                }
             }
 
                /*======= MEDIAqUERIES ======*/

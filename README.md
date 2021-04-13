@@ -71,6 +71,8 @@ Website Responsive and Animation with Javascript.
 - [Majo Ledesma](https://losapuntesdemajo.vercel.app/)
 - [Frontend Mentor](https://www.frontendmentor.io/challenges)
 - [WebDev](https://web.dev/one-line-layouts/)
+- [Stackoverflow](https://es.stackoverflow.com/)
+- [FreeCodeCamp](https://www.freecodecamp.org/learn/)
 - [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Neumorphism](https://neumorphism.io/#1a1919)
 - [CSS-Generator](https://css3generator.com/)

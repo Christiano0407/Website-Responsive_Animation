@@ -16,8 +16,23 @@ menu.addEventListener(`click`, mobileMenu);
 gsap.registerPlugin(ScrollTrigger)
 
 gsap.from(`.animate__hero`, {
-    duration: 5.5, 
+    duration: 1.6, 
     opacity: 0, 
     y: -150, 
     stagger: 0.9
+}); 
+
+gsap.from(`.animate-services`, {
+    ScrollTrigger: `.animate-services`,
+    duration: 0.5, 
+    opacity: 0, 
+    y: -150, 
+    stagger: 0.6
+}); 
+
+gsap.from(`.animate-img`, {
+    ScrollTrigger: `.animate-img`,
+    duration: 1.2, 
+    opacity: 0, 
+    x: -200, 
 })
